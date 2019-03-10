@@ -10,26 +10,16 @@ namespace StringEncoding
     {
         static void Main(string[] args)
         {
-            //добавть декодирующий блок, вынести все условия в отдельные классы, сделать инкапсуляцию
-            string messege = "";
-            int key;
-
+            //добавть декодирующий блок, вынести все условия в отдельные классы, сделать инкапсуляцию  
+          
             Coding report = new Coding(); //созздание экземпляра класса
             Console.WriteLine("Введите строку для кодирования, не блоее 250 сиволов:");
-            messege = Console.ReadLine(); //Запись в строку введённого сообщения
-
-            if (messege.Length > 250) 
-            {
-                Console.WriteLine("Введено более 250 символов");
-                messege = Console.ReadLine();
-            };
-
+            report.Setmessege();
             Console.WriteLine("Введите ключ");
-
-            key = Convert.ToInt32(Console.ReadLine()); //запись в int введёного значение, которое было преобразовано в инт
+            //key = Convert.ToInt32(Console.ReadLine()); //запись в int введёного значение, которое было преобразовано в инт
+            report.Setkey(Convert.ToInt32(Console.ReadLine()));
             
-            
-            Console.WriteLine(key + report.Cmesseege(messege, key)); //вывод сообщения, передачу в метод класса исходной строки и ключа
+            Console.WriteLine(report.Getkey() + report.Cmesseege()); //вывод сообщения, передачу в метод класса исходной строки и ключа
             Console.ReadKey();
         }
     }
