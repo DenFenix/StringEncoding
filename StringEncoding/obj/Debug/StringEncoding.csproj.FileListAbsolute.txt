@@ -1,0 +1,7 @@
+C:\Users\Denis\source\repos\StringEncoding\StringEncoding\bin\Debug\StringEncoding.exe.config
+C:\Users\Denis\source\repos\StringEncoding\StringEncoding\bin\Debug\StringEncoding.exe
+C:\Users\Denis\source\repos\StringEncoding\StringEncoding\bin\Debug\StringEncoding.pdb
+C:\Users\Denis\source\repos\StringEncoding\StringEncoding\obj\Debug\StringEncoding.csprojAssemblyReference.cache
+C:\Users\Denis\source\repos\StringEncoding\StringEncoding\obj\Debug\StringEncoding.csproj.CoreCompileInputs.cache
+C:\Users\Denis\source\repos\StringEncoding\StringEncoding\obj\Debug\StringEncoding.exe
+C:\Users\Denis\source\repos\StringEncoding\StringEncoding\obj\Debug\StringEncoding.pdb
